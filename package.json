@@ -1,0 +1,23 @@
+{
+  "name": "micro-gatekeeper",
+  "version": "0.0.0",
+  "description": "micro-gatekeeper is an OAuth2 Implicit Flow proxy for Github, with multiple app support",
+  "main": "index.js",
+  "dependencies": {
+    "micro": "^8.0.3",
+    "node-fetch": "^1.7.2"
+  },
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev"
+  },
+  "author": "The Spry Group, LLC.",
+  "license": "All Rights Reserved.",
+  "bugs": {
+    "url": "https://github.com/dopry/micro-gatekeeper/issues"
+  },
+  "homepage": "https://github.com/dopry/micro-gatekeeper",
+  "devDependencies": {
+    "micro-dev": "^1.2.1"
+  }
+}
